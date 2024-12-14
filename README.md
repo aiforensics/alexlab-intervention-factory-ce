@@ -89,3 +89,6 @@ Use `localhost:7860` as the URL for `--hf-space`.
   List of target extra country-language pairs for the user actions in  (see the "Country implies language section"). 
   
   E.g., to generate for example French and Dutch translations for Belgium), use `--ecl be:fr be:nl`.
+
+## Funding
+This contribution from AI Forensics is funded by a project grant from [NGI Search](https://www.ngisearch.eu/view/Main/).
