@@ -1,4 +1,4 @@
-# Alexlab User Actions Community Edition
+# Alexlab User Actions Community Edition ![Alexlab User Actions Community Edition](alexlab-user-actions.png "Alexlab User Actions Community Edition") 
 
 The software processes templates and arguments to generate user actions at scale (i.e. prompts for chatbot platforms such as Copilot and Gemini or search queries for TikTok and Youtube). 
 
