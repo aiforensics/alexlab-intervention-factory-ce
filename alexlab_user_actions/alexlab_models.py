@@ -62,6 +62,9 @@ class CountryEnum(AEnum):
     def to_languages(self) -> list[LanguageEnum]:
         return [LanguageEnum(self.value), LanguageEnum.en]
 
+for key in region_mapping.keys():
+    extend_enum(CountryEnum, key, key)
+
 class DiffStatus(str, enum.Enum):
     new = "new"
     upd = "upd"
