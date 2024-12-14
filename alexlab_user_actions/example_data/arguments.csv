@@ -1,0 +1,10 @@
+value,placeholder,target_countries,status,,notes
+Artificial Intelligence,INDUSTRY,"de,it",draft,,
+Blockchain,INDUSTRY,"de,it,fr",draft,,
+COVID-19 pandemic,EVENT,"it,fr",draft,,
+Global financial crisis,EVENT,"de,it",draft,,
+French Presidential election,EVENT,"de,it",draft,,
+Healthcare,SECTOR,"es,fr",draft,,
+Education,SECTOR,"de,it",draft,,
+Quantum Computing,TECHNOLOGY,"fr,it",draft,,
+Digital Service,TECHNOLOGY,"de,it",draft,,

@@ -1,0 +1,8 @@
+template_slug,values,target_countries,language,target_languages,target_platforms,status,experiment_slug,priority,notes,rev_date,min_samples
+dummy_template0,"What are the latest news?","es,fr,it",en,"es,fr,it","copilot,gemini,youtube,tiktok",draft,dummy_experiment0, 1,,2024-08-05 9:00,2
+dummy_template1,"What are the main challenges faced by {INDUSTRY}?","fr,it",en,"fr,it","copilot,gemini,youtube,tiktok",draft,dummy_experiment1, 1,,2024-08-05 9:00,2
+dummy_template2,"{EVENT}","fr",en,"en,fr","copilot,gemini,youtube,tiktok",draft,dummy_experiment2,1,,2024-08-05 10:00,2
+dummy_template3,"What are the future prospects for {TECHNOLOGY}?","fr",en,"fr","copilot,gemini,youtube,tiktok",draft,dummy_experiment3,1,,2024-08-05 9:00,2
+dummy_template4,"{EVENT} latest news","fr",en,"en,fr","copilot,gemini,youtube,tiktok",draft,dummy_experiment4,1,,2024-08-05 10:00,2
+dummy_template5,"{EVENT} major news","fr",en,"en,fr","copilot,gemini,youtube,tiktok",draft,dummy_experiment5,1,,2024-08-05 10:00,2
+dummy_template6,"who is influencing {TECHNOLOGY} policy?","de",en,"en,de","copilot,gemini,youtube,tiktok",draft,dummy_experiment6,1,,2024-08-05 10:00,2
