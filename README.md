@@ -21,8 +21,8 @@ By default, there is a strong assumption that for each target country actions sh
 By default, to perform translations the module will use the HuggingFace Space `aiforensics/opus-mt-translation-ce` which hosts a Gradio service to run the open-source machine translation Opus-MT models, developed by the Language Technology Research Group at the University of Helsinki, through the EasyNMT library. 
 
 To make translations quicker, you can either:
-- clone your own private clone of our HF Space, and then use the `--hf-space` and `--hf-token` to access it.
-- run with Docker.
+- make your own private clone of our HF Space, assign additional resources to it, rather than the default CPU, and then use the `--hf-space` and `--hf-token` to access it.
+- run with Docker (see below).
 
 ## How to install
 
@@ -35,6 +35,7 @@ To make translations quicker, you can either:
 `pip install .`
 
 ## How to run
+
 ```
 python -m alexlab_user_actions --input-templates 'example_data/templates.csv' --input-arguments 'example_data/arguments.csv' --output './output.csv'
 ````
@@ -44,7 +45,7 @@ python -m alexlab_user_actions --input-templates 'example_data/templates.csv' --
 ### Run translations with Docker (optional)
 
 Please ensure you have nvidia-docker2 installed ([see here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)).
-Then run:e
+Then run:
 
 ```
 docker run -it -p 7860:7860 --platform=linux/amd64 --gpus all \
