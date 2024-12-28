@@ -9,3 +9,4 @@ python-dotenv~=1.0.1
 pytest~=8.1.1
 tqdm~=4.66.2
 pandas~=1.5.3
+numpy==1.26.4
