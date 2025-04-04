@@ -26,9 +26,9 @@ To make translations quicker, you can either:
 
 ## How to install
 
-`git clone https://github.com/aiforensics/alexlab-user-actions-ce.git`
+`git clone https://github.com/aiforensics/alexlab-intervention-factory-ce.git`
 
-`cd alexlab-user-actions-ce`
+`cd alexlab-intervention-factory-ce`
 
 `pip install -r requirements.x`
 
