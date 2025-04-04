@@ -1,6 +1,6 @@
-# Alexlab User Actions Community Edition ![Alexlab User Actions Community Edition](alexlab-user-actions.png "Alexlab User Actions Community Edition") 
+# Alexlab Intervention Factory Community Edition ![Alexlab User Actions Community Edition](alexlab-user-actions.png "Alexlab Intervention Factory Community Edition") 
 
-The software processes templates and arguments to generate user actions at scale (i.e. prompts for chatbot platforms such as Copilot and Gemini or search queries for TikTok and Youtube). 
+The software processes templates and arguments to generate interventions at scale (i.e. localised prompts for chatbot platforms such as Copilot and Gemini, or localised search queries for TikTok and Youtube). 
 
 1. **Templates and Arguments**: Please see the `example_data/` folder for an example structure of templates and arguments.
 The basic requirement is that each value in the template file may or may not contain a placehoder enclosed in curly brackets, such as "{TOPIC}", and that the arguments file contains one or more arguments, each relevant to one or more different countries, for each of the placeholders mentioned in the templates.
