@@ -18,7 +18,9 @@ These actions are then saved to a CSV file.
 By default, there is a strong assumption that for each target country actions should be generated only in English (if it is the original language of the template) and in the language whose code corresponds to the country code (e.g. `es` for Spanish and Spain). You change change this behaviour by using the `--ecl` parameter.
 
 ## Translation 
-By default, to perform translations the module will use the HuggingFace Space `aiforensics/opus-mt-translation-ce` which hosts a Gradio service to run the open-source machine translation Opus-MT models, developed by the Language Technology Research Group at the University of Helsinki, through the EasyNMT library. 
+By default, to perform translations the module will use the HuggingFace Space [`aiforensics/opus-mt-translation-ce`](https://huggingface.co/spaces/aiforensics/opus-mt-translation-ce) which hosts a Gradio service to run the open-source machine translation Opus-MT models, developed by the Language Technology Research Group at the University of Helsinki, through the EasyNMT library. 
+
+Translations are supported for all source-target language pairs [here](https://huggingface.co/models?search=opus-mt). Please note that for the lack of it in said list, English to Polish is performed as double translation: first into German, and then into Polish, with translations that require extra care in quality assessment.
 
 To make translations quicker, you can either:
 - make your own private clone of our HF Space, assign additional resources to it, rather than the default CPU, and then use the `--hf-space` and `--hf-token` to access it.
@@ -37,7 +39,7 @@ To make translations quicker, you can either:
 ## How to run
 
 ```
-python -m alexlab_user_actions --input-templates 'example_data/templates.csv' --input-arguments 'example_data/arguments.csv' --output './output.csv'
+python -m alexlab_if --input-templates 'example_data/templates.csv' --input-arguments 'example_data/arguments.csv' --output './output.csv'
 ````
 
 
