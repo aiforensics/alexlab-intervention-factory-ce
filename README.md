@@ -20,7 +20,7 @@ By default, there is a strong assumption that for each target country actions sh
 ## Translation 
 By default, to perform translations the module will use the HuggingFace Space [`aiforensics/opus-mt-translation-ce`](https://huggingface.co/spaces/aiforensics/opus-mt-translation-ce) which hosts a Gradio service to run the open-source machine translation Opus-MT models, developed by the Language Technology Research Group at the University of Helsinki, through the EasyNMT library. 
 
-Translations are supported for all source-target language pairs [here](https://huggingface.co/models?search=opus-mt). Please note that for the lack of it in said list, English to Polish is performed as double translation: first into German, and then into Polish, with translations that require extra care in quality assessment.
+Translations are supported for French, German, Italian, Arabic, English, Dutch, Polish, Spanish, Greek, Czech, Danish, Slovak, Swedish, Swahili, Romanian for any of the translation directions listed as source-target language pairs [here](https://huggingface.co/models?search=opus-mt). Please note that for the lack of it in said list, English to Polish is performed as a double translation: first into German, and then into Polish, with translations that require extra care in quality assessment.
 
 To make translations quicker, you can either:
 - make your own private clone of our HF Space, assign additional resources to it, rather than the default CPU, and then use the `--hf-space` and `--hf-token` to access it.
