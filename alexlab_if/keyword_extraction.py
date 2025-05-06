@@ -5,7 +5,7 @@ import logging
 
 import yake
 
-from alexlab_user_actions.alexlab_models import LanguageEnum
+from alexlab_if.alexlab_models import LanguageEnum
 logger = logging.getLogger()
 
 def extract_keywords(text: str, language: LanguageEnum):
@@ -65,7 +65,7 @@ def _get_stopwords(language: LanguageEnum) -> set[str]:
         set: A set of stopwords for the specified language.
     """    
     # lists are copied from the yake library
-    stopwords_dir = resources.files("alexlab_user_actions").joinpath("stopwords")
+    stopwords_dir = resources.files("alexlab_if").joinpath("stopwords")
     stopwords_file_path = stopwords_dir / f"stopwords_{language.value}.txt"
     if not stopwords_file_path.is_file():
         print(f"WARNING: No stopword file found for {language.value}")

@@ -1,7 +1,7 @@
 import os 
 import re
 
-from alexlab_user_actions.alexlab_models import CountryEnum, LanguageEnum
+from alexlab_if.alexlab_models import CountryEnum, LanguageEnum
 
 def find(lst, condition):
     for item in lst:

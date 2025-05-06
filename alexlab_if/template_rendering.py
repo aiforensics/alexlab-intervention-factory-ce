@@ -6,7 +6,7 @@ import logging
 
 from jinja2 import Template as JinjaTemplate
 
-from alexlab_user_actions.alexlab_models import (
+from alexlab_if.alexlab_models import (
     LanguageEnum,
     AlexlabVariable,
     AlexlabInterpolation,

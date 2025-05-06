@@ -4,7 +4,7 @@ from functools import lru_cache
 
 from gradio_client import Client
 
-from alexlab_user_actions.alexlab_models import LanguageEnum
+from alexlab_if.alexlab_models import LanguageEnum
 
 
 class TranslationService:

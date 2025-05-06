@@ -1,10 +1,10 @@
 import logging
-from alexlab_user_actions.ActionDataFrame import ActionDataFrame
-from alexlab_user_actions.alexlab_models import AlexlabInterpolation, DiffStatus, PlaceholderArgument
-from alexlab_user_actions.keyword_extraction import prompt_to_search_query
-from alexlab_user_actions.template_rendering import PromptCounter, interpolate_template_and_arguments, load_arguments_from_csv, load_templates_from_csv
-from alexlab_user_actions.translation import TranslationService
-from alexlab_user_actions.utils import shorten, trailing_platform_slug
+from alexlab_if.ActionDataFrame import ActionDataFrame
+from alexlab_if.alexlab_models import AlexlabInterpolation, DiffStatus, PlaceholderArgument
+from alexlab_if.keyword_extraction import prompt_to_search_query
+from alexlab_if.template_rendering import PromptCounter, interpolate_template_and_arguments, load_arguments_from_csv, load_templates_from_csv
+from alexlab_if.translation import TranslationService
+from alexlab_if.utils import shorten, trailing_platform_slug
 
 from dateutil import tz
 

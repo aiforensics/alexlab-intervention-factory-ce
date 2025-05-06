@@ -1,10 +1,10 @@
 import argparse
 import logging
 
-from alexlab_user_actions.interpolate_templates import interpolate_templates
+from alexlab_if.interpolate_templates import interpolate_templates
 
-from alexlab_user_actions.translation import TranslationService
-from alexlab_user_actions.utils import country_language_pairs, valid_filepath_type, existing_filepath_type
+from alexlab_if.translation import TranslationService
+from alexlab_if.utils import country_language_pairs, valid_filepath_type, existing_filepath_type
 
 logger = logging.getLogger()
 
